@@ -80,3 +80,39 @@ Refer to the above table (Code and Output)
                 .gravity(Gravity.CENTER)
                 .radius(80,0,0,80)
                 .show();
+
+| Method  | Use |
+| ------------- | ------------- |
+| `textCol(int color)` | Set text color|
+| `backCol(int color` | Set background color |
+| `borderCol(int color)` | Set border color |
+| `borderWidth(int width` | Set border width |
+| `image(int imageResource)` | Set image in the toast |
+| `gravity(int gravityConstant)` | Set Toast gravity (Location) |
+| `radius(int topLeft, int topRight, int bottomLeft, int bottomRight),` | Set toast layout corner radius |
+| `shape(int shape)` | Set toast shape |
+| `duration(int duration)` | Set toast duration |
+| `show()` | **Don't forget to call this method** |
+
+#### Works on
+* Android 4.0.1 (Ice Cream Sandwich) and above.
+
+### Permissions
+* Does not require any special permission
+
+### Built With
+
+* [Android Studio](https://developer.android.com/studio/index.html) - The Official IDE for Android
+
+### Third party libraries
+* No external library dependency
+
+### Authors
+
+* **Shivam Agrawal** - [Rising Hope](http://risinghopeapps.weebly.com/)
+
+### Version 
+* Version 1.0.1
+
+## License 
+* see [LICENSE](/LICENSE) file
