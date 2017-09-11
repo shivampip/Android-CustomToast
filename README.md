@@ -1,5 +1,11 @@
 # Android-CustomToast
 
+[**Android-CustomToast**](https://github.com/shivam301296/Android-CustomToast) :zap: is a powerful & easy to use Custom Toast library for Android. It runs on [API level 14](http://developer.android.com/guide/topics/manifest/uses-sdk-element.html#ApiLevels) and upwards. 
+This library provides some predefined custom toast. Also you can coustomize the toast according to your need 
+
+:zap:**A Single line of code can add a beautiful toast message in your app.** :zap:
+
+
 | Code | Output |
 | ------------- | ------------- |
 | `CT.success(this, "Success");` | <img src="images/success.png" width="100%"></img>  |
