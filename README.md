@@ -14,3 +14,44 @@
 | `CT.normal2(this, "Normal Toast");`| <img src="images/normal2.png" width="100%"></img>  |
 | Custom Toast| <img src="images/custom.png" width="100%"></img>  
 | Custom Toast2 | <img src="images/custom2.png" width="100%"></img>  |
+
+Usage
+-----
+
+**1. Gradle dependency** (recommended)
+
+  -  Add the following to your project level `build.gradle`:
+ 
+```gradle
+allprojects {
+	repositories {
+		maven { url "https://jitpack.io" }
+	}
+}
+```
+  -  Add this to your app `build.gradle`:
+ 
+```gradle
+dependencies {
+	compile 'com.github.shivam301296:Android-CustomToast:1.0.0'
+}
+```
+
+**2. Maven**
+- Add the following to the `<repositories>` section of your `pom.xml`:
+
+ ```xml
+<repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+</repository>
+```
+- Add the following to the `<dependencies>` section of your `pom.xml`:
+
+ ```xml
+<dependency>
+        <groupId>com.github.shivam301296</groupId>
+	      <artifactId>Android-CustomToast</artifactId>
+	      <version>1.0.0</version>
+</dependency>
+```
