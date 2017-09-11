@@ -21,7 +21,7 @@ This library provides some predefined custom toast. Also you can coustomize the 
 | Custom Toast| <img src="images/custom.png" width="100%"></img>  
 | Custom Toast2 | <img src="images/custom2.png" width="100%"></img>  |
 
-Usage
+Setup
 -----
 
 **1. Gradle dependency** (recommended)
@@ -63,6 +63,9 @@ dependencies {
 ```
 
 ## Documentation
+
+For a **detailed documentation** :notebook_with_decorative_cover:, please have a look at the [**Wiki**](https://github.com/shivam301296/Android-CustomToast/wiki) 
+
 
 **For using predefined Toast**
 
