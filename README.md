@@ -33,7 +33,7 @@ allprojects {
  
 ```gradle
 dependencies {
-	compile 'com.github.shivam301296:Android-CustomToast:1.0.0'
+	compile 'com.github.shivam301296:Android-CustomToast:1.0.1'
 }
 ```
 
