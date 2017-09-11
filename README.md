@@ -24,7 +24,7 @@ This library provides some predefined custom toast. Also you can coustomize the 
 Setup
 -----
 
-**1. Gradle dependency** (recommended)
+**Gradle dependency (recommended)** 
 
   -  Add the following to your project level `build.gradle`:
  
@@ -43,7 +43,7 @@ dependencies {
 }
 ```
 
-**2. Maven**
+**Or use Maven**
 - Add the following to the `<repositories>` section of your `pom.xml`:
 
  ```xml
