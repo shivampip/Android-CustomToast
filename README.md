@@ -61,3 +61,22 @@ dependencies {
 	      <version>1.0.0</version>
 </dependency>
 ```
+
+## Documentation
+
+**For using predefined Toast**
+
+Refer to the above table (Code and Output)
+
+
+**For using Custom Toast**
+
+    new CT.Builder(this, "Your message")
+                .textCol(Color.BLACK)
+                .backCol(Color.YELLOW)
+                .borderCol(Color.BLACK)
+                .borderWidth(20)
+                .image(R.drawable.apple)
+                .gravity(Gravity.CENTER)
+                .radius(80,0,0,80)
+                .show();
