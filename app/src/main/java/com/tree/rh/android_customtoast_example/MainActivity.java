@@ -46,6 +46,12 @@ public class MainActivity extends AppCompatActivity {
             case "Mute2":
                 CT.mute2(this, "Silent mode");
                 break;
+            case "Normal":
+                CT.normal(this, "Normal Toast");
+                break;
+            case "Normal2":
+                CT.normal2(this, "Normal Toast");
+                break;
             case "Custom":
                 new CT.Builder(this, "Custom toast")
                         .image(R.drawable.apple)
@@ -63,14 +69,6 @@ public class MainActivity extends AppCompatActivity {
                         .backCol(Color.WHITE)
                         .textCol(Color.BLACK)
                         .borderCol(Color.BLACK)
-                        .radius(80,0,0,80)
-                        .show();
-                break;
-            case "Normal2":
-                new CT.Builder(this, "Normal toast")
-                        .borderWidth(0)
-                        .backCol(Color.BLACK)
-                        .textCol(Color.WHITE)
                         .radius(80,0,0,80)
                         .show();
                 break;

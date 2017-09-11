@@ -56,6 +56,15 @@ public class CT {
         Toast.makeText(context, text, Toast.LENGTH_SHORT).show();
     }
 
+    public static void normal2(Context context, String text){
+        new CT.Builder(context, text)
+                .borderWidth(0)
+                .backCol(Color.BLACK)
+                .textCol(Color.WHITE)
+                .radius(80,0,0,80)
+                .show();
+    }
+
     public static void success(Context context, String text) {
         new Builder(context, text)
                 .shape(GradientDrawable.RECTANGLE)
