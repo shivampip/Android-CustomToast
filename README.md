@@ -113,7 +113,7 @@ Refer to the above table (Code and Output)
 ### Authors
 
 * **Shivam Agrawal** - [Rising Hope](http://risinghopeapps.weebly.com/)
-* Special Thanks to **[Levi Bostian](https://github.com/levibostian)** who tought me to build Andorid Library
+* Special Thanks to **[Levi Bostian](https://github.com/levibostian)** who tought me to [build Andorid Library](https://www.youtube.com/watch?v=RYiZZprUNJw)
 
 ### Version 
 * Version 1.0.1
